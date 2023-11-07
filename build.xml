@@ -10,15 +10,16 @@
 		<ThirdParty>true</ThirdParty>
 		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
 		
+		<Frozen>true</Frozen>
 		<FilterPlatform include="windows">
-			<ThirdPartyDeployFiles>
+			<FrozenDeployFiles>
 				bin\GFSDK_Aftermath_Lib.x64.dll
 				bin\llvm_7_0_1.dll
-			</ThirdPartyDeployFiles>
+			</FrozenDeployFiles>
 
-			<ThirdPartyLibraryFiles>
+			<FrozenLibraryFiles>
 				lib\GFSDK_Aftermath_Lib.x64.lib
-			</ThirdPartyLibraryFiles>
+			</FrozenLibraryFiles>
 		</FilterPlatform>
 
 	</StaticLibrary>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_nvaftermath</Name>
+		<SourceRoot>.</SourceRoot>
+		<ThirdParty>true</ThirdParty>
+		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
+		
+		<FilterPlatform include="windows">
+			<ThirdPartyDeployFiles>
+				bin\GFSDK_Aftermath_Lib.x64.dll
+				bin\llvm_7_0_1.dll
+			</ThirdPartyDeployFiles>
+
+			<ThirdPartyLibraryFiles>
+				lib\GFSDK_Aftermath_Lib.x64.lib
+			</ThirdPartyLibraryFiles>
+		</FilterPlatform>
+
+	</StaticLibrary>
+
+</Module>
